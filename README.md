@@ -16,6 +16,18 @@ A simple RESTful API built with **Flask**, **Flask-SQLAlchemy**, and **Docker**,
 
 ---
 
+### 🐳 Run with Docker
+1. Build Docker Image
+```bash
+docker build -t student-grade-flask .
+```
+2. Run Docker Container
+```bash
+docker run -p 5000:5000 student-grade-flask
+```
+App will be available at: http://localhost:5000
+
+---
 
 ### Clone the Repository
 
@@ -24,13 +36,3 @@ git clone https://github.com/your-username/student-grades-api.git
 cd student-grades-api
 ```
 
-### 🐳 Run with Docker
-1. Build Docker Image
-```bash
-docker build -t student-grade-api .
-```
-2. Run Docker Container
-```bash
-docker run -p 5000:5000 student-grade-api
-```
-App will be available at: http://localhost:5000
